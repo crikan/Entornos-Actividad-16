@@ -38,9 +38,23 @@ public class Operaciones {
 			break;
 		}
 		
+		case 3:
+		{
+			resultado = primero * segundo;
+			System.out.println("El resultado de la multiplicación es: " + resultado);
+			break;
+		}
+		
+		case 4:
+		{
+			resultado = primero / segundo;
+			System.out.println("El resultado de la división es: " + resultado);
+			break;
+		}
+		
 		}
 		in.close();
 
-	}
+	 }
 
 }
